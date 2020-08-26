@@ -8,7 +8,7 @@ def find_min_in_nested_arrays(src)
     longest_num = ""
     while rowidx < src[eleidx].count do
       if src[eleidx][rowidx] > longest_num.to_i
-        longest_string =  scr[eleidx][rowidx]
+        longest_string =  src[eleidx][rowidx]
       end
       rowidx += 1 
     end
