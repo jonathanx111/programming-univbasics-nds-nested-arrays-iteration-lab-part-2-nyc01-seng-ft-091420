@@ -7,7 +7,7 @@ def find_min_in_nested_arrays(src)
     rowidx = 0
     longest_num = ""
     while rowidx < src[eleidx].count do
-      if src[eleidx][rowidx] > longest_num.to_i
+      if src[eleidx][rowidx] < longest_num.to_i
         longest_num =  src[eleidx][rowidx]
       end
       rowidx += 1 
@@ -15,5 +15,5 @@ def find_min_in_nested_arrays(src)
     new << longest_num
     eleidx += 1
   end 
-  p new 
+  new 
 end
