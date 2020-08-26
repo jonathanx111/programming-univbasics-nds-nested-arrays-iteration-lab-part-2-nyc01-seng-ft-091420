@@ -15,5 +15,5 @@ def find_min_in_nested_arrays(src)
     new << longest_num
     eleidx += 1
   end 
-  print new 
+  new 
 end
