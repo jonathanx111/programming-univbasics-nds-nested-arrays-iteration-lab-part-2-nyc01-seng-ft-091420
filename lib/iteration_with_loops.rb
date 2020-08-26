@@ -5,9 +5,9 @@ def find_min_in_nested_arrays(src)
   new = []
   while eleidx < src.count do 
     rowidx = 0
-    longest_string = []
+    longest_string = ""
     while rowidx < src[eleidx].count do
-      if scr[eleidx][rowidx] > longest_string.
+      if scr[eleidx][rowidx] > longest_string.to_i
         longest_string =  scr[eleidx][rowidx]
       end
       rowidx += 1 
