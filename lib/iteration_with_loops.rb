@@ -5,12 +5,15 @@ def find_min_in_nested_arrays(src)
   new = []
   while eleidx < src.count do 
     rowidx = 0
-    longest_string = ""
+    longest_num = ""
     while rowidx < src[eleidx].count do
-      if scr[eleidx][rowidx] > longest_string.to_i
+      if scr[eleidx][rowidx] > longest_num.to_i
         longest_string =  scr[eleidx][rowidx]
       end
       rowidx += 1 
     end
-        
+    new << longest_num
+    eleidx += 1
+  end 
+  print new 
 end
